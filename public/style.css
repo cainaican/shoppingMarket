@@ -18,3 +18,10 @@ header{
     text-transform: uppercase;
     background-color: yellow;
 }
+.cart{
+    display: flex;
+    justify-content: left;
+}
+.cart-item{
+    margin: 0 25px;
+}
