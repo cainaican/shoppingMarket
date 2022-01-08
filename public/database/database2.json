@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "id": 5,
+            "name": "Espresso",
+            "price": 30
+        },
+        {
+            "id": 6,
+            "name": "Americano",
+            "price": 112
+        },
+        {
+            "id": 7,
+            "name": "Glace",
+            "price": 30
+        },
+        {
+            "id": 8,
+            "name": "Romano",
+            "price": 20
+        }
+    ]
+}

@@ -5,21 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
     <title>Market</title>
 </head>
 
 <body>
     <header>
-        <button class="cart-button" type="button">Корзина</button>
+        <input type="search" class="search" placeholder="Ваш запрос">
+        <button type="submit" class="search-btn">Поиск</button>
     </header>
-    <main>
-        <div class="goods-list"></div>
-        <h1>Корзина</h1>
-        <div class="cart">
+    <main class="root">
+        <div class="catalog"></div>
+        <div class="cart__inner">
+            <button class="button cart__button">Корзина</button>
+            <div class="cart catalog"></div>
         </div>
+        <form class="form">
+            <p>Name <input class="name" type="text" placeholder="Dini" /></p>
+            <p>Phone Number <input class="tel" type="tel" placeholder="89996228031" /></p>
+            <p>Email <input class="email" type="email" placeholder="dinimain@mail.ru" /></p>
+        </form>
     </main>
-    <script src="./script.js"></script>
+    <script src="./js/shop.js"></script>
 </body>
 
 </html>
